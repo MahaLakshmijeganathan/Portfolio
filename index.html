@@ -1,0 +1,217 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Portfolio</p>
+            </div>
+            <div class="nav-menu" id="MyNavmenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>   
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>    
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>    
+                    <li class="nav_list">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                        <div class="circle"></div>
+                    </li>                  
+                </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I am</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>J Mahalakshmi.I am currently studying B.Tech(IT) degree in PSNA college
+                            of Enginering and Technology.
+                        </p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <button class="btn">Download CV<i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon"><i class="uil uil-whatsapp"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="tech.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="tech.jpg" alt="" class="profile" />
+                                    <h2>Web developer</h2>
+                                    <p>My Name is Mahalakshmi currenty studying B.Tech(IT) degree
+                                    in PSNA College Of Engineering and Technology.
+                                    </p>
+                            </figure>
+                            <button class="about-me-btn">Hire Me</button>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar html">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar css">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JAVA</span>
+                            <div class="skill-bar">
+                                <span class="skill-per java">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JAVASCRIPT</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">PYTHON</span>
+                            <div class="skill-bar">
+                                <span class="skill-per python">
+                                        <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div id="projects">
+                    <div class="main-text" id="project">
+                        <div class="top-header"><h1>Project</h1></div>
+                        <div class="portfolio-content">
+                            <div class="rows">
+                                <img src="commerce.jpg">
+                                <div class="layer">
+                                    <h5>E-Commerce website</h5>
+                                    <p>I have created an E-commerce website with various features using html,css and javascript.</p>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <img src="edu.jpg">
+                                <div class="layer">
+                                    <h5>Education website</h5>
+                                    <p>I have created front end design for E-learning website to make learning 
+                                        more accessible and enjoyable.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <img src="code.jpg">
+                                <div class="layer">
+                                    <h5> LeetCode Journey</h5>
+                                    <p>I have recently started solving LeetCode problems to enhance my logical skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <div class="top-header">
+                    <h1>Contact</h1>
+                </div>
+                <div class="row">
+                    <div clas="col">
+                        <div class="contact-info">
+                            <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope">Email:mahalakshmij21it@psnacet.edu.in</i></p>
+                            <p><i class="uil uil-phone">Phone:9345834160</i></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Project</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-whatsapp"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollReveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
